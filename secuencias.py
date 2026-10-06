@@ -1,11 +1,9 @@
-"""Manejo de secuencias de ADN."""
 import random
 
 from constantes import COMP_DNA, COMP_RNA, STOP_CODONS_DNA
 
 
 class SecuenciaADN:
-    """Representa un gen: cadena codificante (5'->3') y su cadena molde."""
 
     def __init__(self, texto):
         self.codificante = self.limpiar(texto)

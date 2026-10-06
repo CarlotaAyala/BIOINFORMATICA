@@ -1,10 +1,5 @@
-"""Los tres procesos del dogma central: replicación, transcripción y traducción.
-
-Cada clase separa el cálculo (`calcular`) de la presentación (`mostrar`).
-"""
 from constantes import BASE_COLOR, CODON_TABLE, DIM, OK_COLOR, RESET
 from secuencias import SecuenciaADN
-
 
 class Replicacion:
     TAM_FRAGMENTO = 6
@@ -78,7 +73,6 @@ class Traduccion:
         self.consola = consola
 
     def codones(self):
-        """Genera (codón, aminoácido) hasta el primer STOP (incluido)."""
         for i in range(0, len(self.arnm) - 2, 3):
             codon = self.arnm[i:i + 3]
             aa = CODON_TABLE.get(codon, "?")
