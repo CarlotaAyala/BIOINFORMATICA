@@ -1,0 +1,15 @@
+HOJA DE EJERCICIOS 3 - BLAST
+============================
+Hoja3_BLAST_solucion.ipynb  Notebook con los 4 ejercicios, tus resultados y los comentarios.
+Respuestas_Hoja3.md         Solo las respuestas y comentarios (sin código).
+Hoja3_BLAST_solucion.py     El mismo código en formato script.
+*.fasta                     Secuencias de los ejercicios.
+.gitignore                  Evita subir a GitHub la carpeta BD (varios GB).
+
+CÓMO EJECUTARLO
+1. Ajusta las rutas de la primera celda de código (BLAST_BIN, DIR_BD).
+2. Ejecuta las celdas en orden. Las celdas ONLINE (1A, 2A y la primera del
+   ejercicio 4) pueden tardar 15 min y no son necesarias: las partes LOCALES
+   funcionan sin ellas.
+3. Si ya tienes las bases de datos y el XML del ejercicio 3, NO ejecutes la
+   celda del tblastn (tarda mucho): ejecuta directamente la de ANÁLISIS.

@@ -1,0 +1,7 @@
+# Bases de datos de BLAST (varios GB, no se suben)
+BD/
+*.tar.gz
+
+# Temporales de Jupyter y Python
+.ipynb_checkpoints/
+__pycache__/
